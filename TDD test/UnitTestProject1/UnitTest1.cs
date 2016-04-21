@@ -30,11 +30,36 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestStrType()
         {
+            //Arrange
+            string [] str = { "hej", "123", "hej123"};
+            string [] expected = { "word", "number", "none"};
+
+             stringUtil su = new stringUtil();
+            //Act
+            string result = su.strType(str);
+
+
+            //Assert
+            Assert.Equals(expected, result);
+
+
 
         }
         [TestMethod]
         public void TestNextPalindrome()
         {
+            //Arrange
+            int [] str = {123};
+            int expected = 123321;
+
+            stringUtil su = new stringUtil();
+            //Act
+            int result = su.nextPalindrome(str);
+
+            //Assert
+            Assert.Equals(expected, result);
+
+
 
         }
 

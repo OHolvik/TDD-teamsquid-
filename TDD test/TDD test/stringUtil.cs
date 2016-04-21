@@ -15,15 +15,15 @@ namespace TDD_test
 
         }
 
-        public string strType()
+        public string strType(string [] strs)
 
         {
             return null;
         }
 
-        public string nextPalindrome()
+        public int nextPalindrome(int[] strs)
         {
-            return null;
+            return 0;
         }
 
         public string nextPrime()
