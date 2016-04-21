@@ -9,24 +9,23 @@ namespace TDD_test
     public class stringUtil
     {
 
-        public string strCount(string [] strs)
+        public int strCount(string str)
         {
-            return null;
+            return 0;
 
         }
 
-        public string strType()
-
-        {
-            return null;
-        }
-
-        public string nextPalindrome()
+        public string strType(string str)
         {
             return null;
         }
 
-        public string nextPrime()
+        public int nextPalindrome(int num)
+        {
+            return 0;
+        }
+
+        public int[] nextPrime(int num)
         {
             return null;
         }
