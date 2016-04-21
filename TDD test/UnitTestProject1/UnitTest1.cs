@@ -66,6 +66,20 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestNextPrime()
         {
+            //Arrange
+            int[] str = {2};
+            int [] expected = { 3, 5, 7 };
+
+            stringUtil su = new  stringUtil();
+
+
+            //Act
+
+            int result = su.nextPrime(str);
+
+            //Assert
+
+            Assert.Equals(expected, result);
 
         }
     }

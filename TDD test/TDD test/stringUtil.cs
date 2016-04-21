@@ -26,9 +26,9 @@ namespace TDD_test
             return 0;
         }
 
-        public string nextPrime()
+        public int nextPrime(int [] strs)
         {
-            return null;
+            return 0;
         }
     }
 }
