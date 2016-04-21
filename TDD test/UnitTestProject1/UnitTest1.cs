@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TDD_test;
 
 namespace UnitTestProject1
 {
@@ -10,6 +11,20 @@ namespace UnitTestProject1
         public void TestStrCount()
         {
 
+            //Arrange
+            string[] str = {"Length"};
+            string expected = "6";
+
+            stringUtil su = new stringUtil();
+
+
+            //Act
+            string result = su.strCount(str);
+
+
+            //Assert
+
+            Assert.AreEqual(expected, result);
         }
 
         [TestMethod]
