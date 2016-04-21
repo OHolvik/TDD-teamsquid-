@@ -1,31 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace TDD_test
 {
     public class stringUtil
     {
-        public string strCount(string[] strs)
+
+        public string strCount(string [] strs)
         {
             return null;
 
         }
 
-        public string strType(string[] strs)
+        public string strType()
 
         {
             return null;
         }
 
-        public int nextPalindrome(int[] strs)
+        public string nextPalindrome()
         {
-            return 0;
+            return null;
         }
 
-        public int nextPrime(int[] strs)
+        public string nextPrime()
         {
-            return 0;
+            return null;
         }
     }
 }
