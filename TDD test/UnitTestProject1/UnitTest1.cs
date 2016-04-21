@@ -7,8 +7,26 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestStrCount()
         {
+
+        }
+
+        [TestMethod]
+        public void TestStrType()
+        {
+
+        }
+        [TestMethod]
+        public void TestNextPalindrome()
+        {
+
+        }
+
+        [TestMethod]
+        public void TestNextPrime()
+        {
+
         }
     }
 }
