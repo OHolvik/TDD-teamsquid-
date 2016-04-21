@@ -6,67 +6,26 @@ namespace TDD_test
 {
     public class stringUtil
     {
-
-        public int strCount(string str)
+        public string strCount(string[] strs)
         {
-            return str.Length;
+            return null;
+
         }
 
-        public string strType(string str)
+        public string strType(string[] strs)
+
         {
-            if (str.All(char.IsNumber))
-                return "number";
-            if (str.All(char.IsLetter))
-                return "word";
-            return "none";
+            return null;
         }
 
-        public int nextPalindrome(int num)
+        public int nextPalindrome(int[] strs)
         {
-            string numStr = num.ToString();
-            char[] charArray = numStr.ToCharArray();
-            Array.Reverse(charArray);
-            numStr = string.Concat(numStr, new string(charArray));
-            return int.Parse(numStr);
+            return 0;
         }
 
-        public int[] nextPrime(int num)
+        public int nextPrime(int[] strs)
         {
-            int candidate = num;
-            List<int> primes = new List<int>();
-            do
-            {
-                if (isPrime(++candidate))
-                {
-                    primes.Add(candidate);
-                }
-            } while (primes.Count < 3);
-
-            return primes.ToArray();
-        }
-
-        public bool isPrime(int num)
-        {
-            if ((num & 1) == 0)
-            {
-                if (num == 2)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            for (int i = 3; (i * i) <= num; i += 2)
-            {
-                if ((num % i) == 0)
-                {
-                    return false;
-                }
-            }
-            return num != 1;
-
+            return 0;
         }
     }
 }
